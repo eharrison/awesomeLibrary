@@ -29,13 +29,4 @@ import Foundation
         }
     }
     
-    @IBInspectable public var addShaddow: Bool = false {
-        didSet {
-            if addShaddow {
-                layer.shadowPath = UIBezierPath(rect: bounds).CGPath
-                layer.shouldRasterize = true
-            }
-        }
-    }
-    
 }
