@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AA751E11D02342200201DB9 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA751E01D02342200201DB9 /* UIView+Layout.swift */; };
+		0AA751F41D0238B900201DB9 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA751F31D0238B900201DB9 /* DesignableView.swift */; };
 		0AE638491D00C85300D0A652 /* AAPIParser+Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6383F1D00C85300D0A652 /* AAPIParser+Instagram.swift */; };
 		0AE6384A1D00C85300D0A652 /* InstagramObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE638401D00C85300D0A652 /* InstagramObject.swift */; };
 		0AE6384B1D00C85300D0A652 /* InstagramUserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE638411D00C85300D0A652 /* InstagramUserObject.swift */; };
@@ -15,7 +17,7 @@
 		0AE6384E1D00C85300D0A652 /* AAPIParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE638481D00C85300D0A652 /* AAPIParser.swift */; };
 		0AE638521D00C87900D0A652 /* CDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE638501D00C87900D0A652 /* CDHelper.swift */; };
 		0AE638531D00C87900D0A652 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE638511D00C87900D0A652 /* DataAccess.swift */; };
-		0AE639021D00DFA700D0A652 /* UIView+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE639011D00DFA700D0A652 /* UIView+Awesome.swift */; };
+		0AE639021D00DFA700D0A652 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE639011D00DFA700D0A652 /* UIView+Animations.swift */; };
 		0AE639051D00E11A00D0A652 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE639041D00E11A00D0A652 /* DesignableImageView.swift */; };
 		0AE9AA551D007AD100BD5A4B /* AwesomeLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE9AA541D007AD100BD5A4B /* AwesomeLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AE9AA5C1D007AD100BD5A4B /* AwesomeLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE9AA511D007AD100BD5A4B /* AwesomeLibrary.framework */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA751E01D02342200201DB9 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "../../../../../awesomeLibrary/AwesomeLibrary/Classes/UI/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
+		0AA751F31D0238B900201DB9 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = ../../../../../awesomeLibrary/AwesomeLibrary/Classes/UI/Designable/DesignableView.swift; sourceTree = "<group>"; };
 		0AE6383F1D00C85300D0A652 /* AAPIParser+Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AAPIParser+Instagram.swift"; sourceTree = "<group>"; };
 		0AE638401D00C85300D0A652 /* InstagramObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramObject.swift; sourceTree = "<group>"; };
 		0AE638411D00C85300D0A652 /* InstagramUserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramUserObject.swift; sourceTree = "<group>"; };
@@ -41,7 +45,7 @@
 		0AE638481D00C85300D0A652 /* AAPIParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPIParser.swift; sourceTree = "<group>"; };
 		0AE638501D00C87900D0A652 /* CDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDHelper.swift; sourceTree = "<group>"; };
 		0AE638511D00C87900D0A652 /* DataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
-		0AE639011D00DFA700D0A652 /* UIView+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Awesome.swift"; sourceTree = "<group>"; };
+		0AE639011D00DFA700D0A652 /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 		0AE639041D00E11A00D0A652 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
 		0AE9AA511D007AD100BD5A4B /* AwesomeLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE9AA541D007AD100BD5A4B /* AwesomeLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwesomeLibrary.h; sourceTree = "<group>"; };
@@ -162,7 +166,8 @@
 		0AE639001D00DF6700D0A652 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0AE639011D00DFA700D0A652 /* UIView+Awesome.swift */,
+				0AE639011D00DFA700D0A652 /* UIView+Animations.swift */,
+				0AA751E01D02342200201DB9 /* UIView+Layout.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				0AE639041D00E11A00D0A652 /* DesignableImageView.swift */,
+				0AA751F31D0238B900201DB9 /* DesignableView.swift */,
 			);
 			path = Designable;
 			sourceTree = "<group>";
@@ -325,8 +331,10 @@
 				0AE6384C1D00C85300D0A652 /* UIImage+Awesome.swift in Sources */,
 				0AE638491D00C85300D0A652 /* AAPIParser+Instagram.swift in Sources */,
 				0AE6384A1D00C85300D0A652 /* InstagramObject.swift in Sources */,
-				0AE639021D00DFA700D0A652 /* UIView+Awesome.swift in Sources */,
+				0AE639021D00DFA700D0A652 /* UIView+Animations.swift in Sources */,
+				0AA751E11D02342200201DB9 /* UIView+Layout.swift in Sources */,
 				0AE639051D00E11A00D0A652 /* DesignableImageView.swift in Sources */,
+				0AA751F41D0238B900201DB9 /* DesignableView.swift in Sources */,
 				0AE638521D00C87900D0A652 /* CDHelper.swift in Sources */,
 				0AE6384E1D00C85300D0A652 /* AAPIParser.swift in Sources */,
 				0AE638531D00C87900D0A652 /* DataAccess.swift in Sources */,
