@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0AA751E11D02342200201DB9 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA751E01D02342200201DB9 /* UIView+Layout.swift */; };
 		0AA751F41D0238B900201DB9 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA751F31D0238B900201DB9 /* DesignableView.swift */; };
+		0AC0891F1D0794BE002D997C /* UIImageView+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0891E1D0794BE002D997C /* UIImageView+Awesome.swift */; };
+		0AC089211D079BC7002D997C /* UICollectionViewCell+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC089201D079BC7002D997C /* UICollectionViewCell+Awesome.swift */; };
+		0AC089231D079F93002D997C /* UIButton+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC089221D079F93002D997C /* UIButton+Awesome.swift */; };
+		0AC089251D079FB0002D997C /* UITableViewCell+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC089241D079FB0002D997C /* UITableViewCell+Awesome.swift */; };
 		0AE638491D00C85300D0A652 /* AAPIParser+Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6383F1D00C85300D0A652 /* AAPIParser+Instagram.swift */; };
 		0AE6384A1D00C85300D0A652 /* InstagramObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE638401D00C85300D0A652 /* InstagramObject.swift */; };
 		0AE6384B1D00C85300D0A652 /* InstagramUserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE638411D00C85300D0A652 /* InstagramUserObject.swift */; };
@@ -37,6 +41,10 @@
 /* Begin PBXFileReference section */
 		0AA751E01D02342200201DB9 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "../../../../../awesomeLibrary/AwesomeLibrary/Classes/UI/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
 		0AA751F31D0238B900201DB9 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = ../../../../../awesomeLibrary/AwesomeLibrary/Classes/UI/Designable/DesignableView.swift; sourceTree = "<group>"; };
+		0AC0891E1D0794BE002D997C /* UIImageView+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Awesome.swift"; path = "../../../../../awesomeLibrary/AwesomeLibrary/Classes/Online/Extensions/UIImageView+Awesome.swift"; sourceTree = "<group>"; };
+		0AC089201D079BC7002D997C /* UICollectionViewCell+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Awesome.swift"; sourceTree = "<group>"; };
+		0AC089221D079F93002D997C /* UIButton+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Awesome.swift"; sourceTree = "<group>"; };
+		0AC089241D079FB0002D997C /* UITableViewCell+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Awesome.swift"; sourceTree = "<group>"; };
 		0AE6383F1D00C85300D0A652 /* AAPIParser+Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AAPIParser+Instagram.swift"; sourceTree = "<group>"; };
 		0AE638401D00C85300D0A652 /* InstagramObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramObject.swift; sourceTree = "<group>"; };
 		0AE638411D00C85300D0A652 /* InstagramUserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramUserObject.swift; sourceTree = "<group>"; };
@@ -125,6 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				0AE638441D00C85300D0A652 /* UIImage+Awesome.swift */,
+				0AC0891E1D0794BE002D997C /* UIImageView+Awesome.swift */,
+				0AC089201D079BC7002D997C /* UICollectionViewCell+Awesome.swift */,
+				0AC089241D079FB0002D997C /* UITableViewCell+Awesome.swift */,
+				0AC089221D079F93002D997C /* UIButton+Awesome.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -331,8 +343,12 @@
 				0AE6384C1D00C85300D0A652 /* UIImage+Awesome.swift in Sources */,
 				0AE638491D00C85300D0A652 /* AAPIParser+Instagram.swift in Sources */,
 				0AE6384A1D00C85300D0A652 /* InstagramObject.swift in Sources */,
+				0AC089251D079FB0002D997C /* UITableViewCell+Awesome.swift in Sources */,
 				0AE639021D00DFA700D0A652 /* UIView+Animations.swift in Sources */,
+				0AC089211D079BC7002D997C /* UICollectionViewCell+Awesome.swift in Sources */,
 				0AA751E11D02342200201DB9 /* UIView+Layout.swift in Sources */,
+				0AC089231D079F93002D997C /* UIButton+Awesome.swift in Sources */,
+				0AC0891F1D0794BE002D997C /* UIImageView+Awesome.swift in Sources */,
 				0AE639051D00E11A00D0A652 /* DesignableImageView.swift in Sources */,
 				0AA751F41D0238B900201DB9 /* DesignableView.swift in Sources */,
 				0AE638521D00C87900D0A652 /* CDHelper.swift in Sources */,

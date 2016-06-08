@@ -24,4 +24,26 @@ public extension UIView {
         }
     }
     
+    public func animateDisable(completion:() -> Void){
+        UIView.animateWithDuration(0.2, animations: {
+            self.alpha = 0.6
+            self.transform = CGAffineTransformMakeScale(0.9, 0.9)
+        }) { (Bool) in
+            completion()
+        }
+    }
+    
+    public func animateEnable(completion:() -> Void){
+        UIView.animateWithDuration(0.2, animations: {
+            self.alpha = 1
+            self.transform = CGAffineTransformMakeScale(1.1, 1.1)
+        }) { (Bool) in
+            UIView .animateWithDuration(0.1, animations: {
+                self.transform = CGAffineTransformMakeScale(1, 1)
+            }) { (Bool) in
+                completion()
+            }
+        }
+    }
+    
 }
