@@ -8,9 +8,9 @@
 
 import UIKit
 
-class AAPIFetcher: NSObject {
+public class AAPIFetcher: NSObject {
 
-    static func fetchData(urlString: String?, timeOut: Double, completion:(success: Bool, data: NSData?) -> Void){
+    public static func fetchData(urlString: String?, timeOut: Double, completion:(success: Bool, data: NSData?) -> Void){
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
             var canTimeOut = true
             var timedOut = false
@@ -39,7 +39,7 @@ class AAPIFetcher: NSObject {
         }
     }
     
-    static func fetchData(urlString: String?, completion:(data: NSData?) -> Void) -> NSURLSessionDataTask?{
+    public static func fetchData(urlString: String?, completion:(data: NSData?) -> Void) -> NSURLSessionDataTask?{
         if let urlString = urlString{
             let urlRequest = NSMutableURLRequest(URL: NSURL(string: urlString)!)
             urlRequest.cachePolicy = .ReturnCacheDataElseLoad

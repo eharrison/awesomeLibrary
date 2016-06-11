@@ -23,6 +23,8 @@
 		0AE638531D00C87900D0A652 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE638511D00C87900D0A652 /* DataAccess.swift */; };
 		0AE639021D00DFA700D0A652 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE639011D00DFA700D0A652 /* UIView+Animations.swift */; };
 		0AE639051D00E11A00D0A652 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE639041D00E11A00D0A652 /* DesignableImageView.swift */; };
+		0AE8B49A1D0C501A00B59513 /* AAPIParser+Unsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8B4991D0C501A00B59513 /* AAPIParser+Unsplash.swift */; };
+		0AE8B4A01D0C504900B59513 /* UnsplashObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8B49F1D0C504900B59513 /* UnsplashObject.swift */; };
 		0AE9AA551D007AD100BD5A4B /* AwesomeLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE9AA541D007AD100BD5A4B /* AwesomeLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AE9AA5C1D007AD100BD5A4B /* AwesomeLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE9AA511D007AD100BD5A4B /* AwesomeLibrary.framework */; };
 		0AE9AA611D007AD100BD5A4B /* AwesomeLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9AA601D007AD100BD5A4B /* AwesomeLibraryTests.swift */; };
@@ -55,6 +57,8 @@
 		0AE638511D00C87900D0A652 /* DataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
 		0AE639011D00DFA700D0A652 /* UIView+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
 		0AE639041D00E11A00D0A652 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		0AE8B4991D0C501A00B59513 /* AAPIParser+Unsplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AAPIParser+Unsplash.swift"; sourceTree = "<group>"; };
+		0AE8B49F1D0C504900B59513 /* UnsplashObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsplashObject.swift; sourceTree = "<group>"; };
 		0AE9AA511D007AD100BD5A4B /* AwesomeLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE9AA541D007AD100BD5A4B /* AwesomeLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwesomeLibrary.h; sourceTree = "<group>"; };
 		0AE9AA561D007AD100BD5A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 		0AE638421D00C85300D0A652 /* Unsplash */ = {
 			isa = PBXGroup;
 			children = (
+				0AE8B4991D0C501A00B59513 /* AAPIParser+Unsplash.swift */,
+				0AE8B49F1D0C504900B59513 /* UnsplashObject.swift */,
 			);
 			path = Unsplash;
 			sourceTree = "<group>";
@@ -350,7 +356,9 @@
 				0AC089231D079F93002D997C /* UIButton+Awesome.swift in Sources */,
 				0AC0891F1D0794BE002D997C /* UIImageView+Awesome.swift in Sources */,
 				0AE639051D00E11A00D0A652 /* DesignableImageView.swift in Sources */,
+				0AE8B4A01D0C504900B59513 /* UnsplashObject.swift in Sources */,
 				0AA751F41D0238B900201DB9 /* DesignableView.swift in Sources */,
+				0AE8B49A1D0C501A00B59513 /* AAPIParser+Unsplash.swift in Sources */,
 				0AE638521D00C87900D0A652 /* CDHelper.swift in Sources */,
 				0AE6384E1D00C85300D0A652 /* AAPIParser.swift in Sources */,
 				0AE638531D00C87900D0A652 /* DataAccess.swift in Sources */,

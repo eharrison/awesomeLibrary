@@ -8,13 +8,13 @@
 
 import Foundation
 
-class InstagramUserObject: NSObject {
+public class InstagramUserObject: NSObject {
 
-    var username: String?
-    var fullname: String?
-    var userID: String?
-    var bio: String?
-    var website: String?
-    var profilePicture: String?
+    public var username: String?
+    public var fullname: String?
+    public var userID: String?
+    public var bio: String?
+    public var website: String?
+    public var profilePicture: String?
     
 }

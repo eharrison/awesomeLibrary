@@ -8,11 +8,11 @@
 
 import Foundation
 
-class InstagramObject: NSObject {
+public class InstagramObject: NSObject {
 
-    var imageLowQuality: String?
-    var imageThumbnail: String?
-    var imageStandard: String?
-    var objectID: String?
+    public var imageLowQuality: String?
+    public var imageThumbnail: String?
+    public var imageStandard: String?
+    public var objectID: String?
     
 }

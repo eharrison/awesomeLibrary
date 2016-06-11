@@ -8,9 +8,9 @@
 
 import UIKit
 
-class AAPIParser: NSObject {
+public class AAPIParser: NSObject {
 
-    static func jsonObject(data: NSData) -> AnyObject?{
+    public static func jsonObject(data: NSData) -> AnyObject?{
         do {
             let json = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments)
             return json
@@ -21,7 +21,7 @@ class AAPIParser: NSObject {
         return nil
     }
     
-    static func doubleValue(jsonObject: AnyObject, key: String) -> Double{
+    public static func doubleValue(jsonObject: AnyObject, key: String) -> Double{
         if let value = jsonObject[key] as? String {
             return Double(value)!
         }else if let array = jsonObject[key] as? [String] {
@@ -30,7 +30,16 @@ class AAPIParser: NSObject {
         return 0
     }
     
-    static func stringValue(jsonObject: AnyObject, key: String) -> String{
+    public static func intValue(jsonObject: AnyObject, key: String) -> Int{
+        if let value = jsonObject[key] as? String {
+            return Int(value)!
+        }else if let array = jsonObject[key] as? [String] {
+            return Int(array[0])!
+        }
+        return 0
+    }
+    
+    public static func stringValue(jsonObject: AnyObject, key: String) -> String{
         if let value = jsonObject[key] as? String {
             return value
         }else if let array = jsonObject[key] as? [String] {

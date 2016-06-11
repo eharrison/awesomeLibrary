@@ -10,6 +10,12 @@ import Foundation
 
 extension AAPIParser{
     
+    // MARK: - AccessToken
+    
+//    static func instagramAccessToken(ur: String) -> String{
+//        https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=REDIRECT-URI&response_type=code
+//    }
+    
     // MARK: - Instagram User
     
     static func instagramUser(data: NSData) -> InstagramUserObject?{
