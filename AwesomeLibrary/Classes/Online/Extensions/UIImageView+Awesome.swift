@@ -10,7 +10,7 @@ import Foundation
 
 extension UIImageView{
     
-    func setImage(url: String, placeholder: UIImage?, showLoading: Bool, completion:(image: UIImage?) -> Void) -> NSURLSessionDataTask?{
+    public func setImage(url: String, placeholder: UIImage?, showLoading: Bool, completion:(image: UIImage?) -> Void) -> NSURLSessionDataTask?{
         self.layer.masksToBounds = true
         
         if let placeholder = placeholder {
@@ -31,7 +31,7 @@ extension UIImageView{
         }
     }
     
-    func setImage(url: String, thumbnailUrl: String, placeholder: UIImage?, showLoading: Bool, completion:(image: UIImage?) -> Void) -> NSURLSessionDataTask?{
+    public func setImage(url: String, thumbnailUrl: String, placeholder: UIImage?, showLoading: Bool, completion:(image: UIImage?) -> Void) -> NSURLSessionDataTask?{
         
         return setImage(thumbnailUrl, placeholder: placeholder, showLoading: showLoading) { (thumbnail) in
             self.setImage(url, placeholder: placeholder, showLoading: false) { (image) in

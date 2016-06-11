@@ -12,7 +12,7 @@ extension AAPIParser {
     
     // MARK: - Unsplash Pictures
     
-    static func unsplashPictures(data: NSData) -> [UnsplashObject]{
+    public static func unsplashPictures(data: NSData) -> [UnsplashObject]{
         var pictures = [UnsplashObject]()
         
         if let jsonObject = jsonObject(data) {
@@ -26,7 +26,7 @@ extension AAPIParser {
         return pictures
     }
     
-    static func unsplashObject(jsonObject: AnyObject) -> UnsplashObject {
+    public static func unsplashObject(jsonObject: AnyObject) -> UnsplashObject {
         let unsplashObject = UnsplashObject()
         unsplashObject.objectID = intValue(jsonObject, key: "id")
         unsplashObject.width = intValue(jsonObject, key: "width")

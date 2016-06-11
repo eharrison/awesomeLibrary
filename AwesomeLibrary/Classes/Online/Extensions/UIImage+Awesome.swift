@@ -10,7 +10,7 @@ import Foundation
 
 extension UIImage{
     
-    static func loadImage(url: String, completion:(image: UIImage?) -> Void) -> NSURLSessionDataTask?{
+    public static func loadImage(url: String, completion:(image: UIImage?) -> Void) -> NSURLSessionDataTask?{
         let task = AAPIFetcher.fetchData(url) { (data) in
             if let data = data {
                 completion(image: UIImage(data: data))

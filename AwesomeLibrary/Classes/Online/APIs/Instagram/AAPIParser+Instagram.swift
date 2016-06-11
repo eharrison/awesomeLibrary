@@ -18,7 +18,7 @@ extension AAPIParser{
     
     // MARK: - Instagram User
     
-    static func instagramUser(data: NSData) -> InstagramUserObject?{
+    public static func instagramUser(data: NSData) -> InstagramUserObject?{
         if let jsonObject = jsonObject(data) {
             if let dataJson = jsonObject["data"] {
             
@@ -39,7 +39,7 @@ extension AAPIParser{
     
     // MARK: - Instagram Pictures
     
-    static func instagramPictures(data: NSData) -> [InstagramObject]{
+    public static func instagramPictures(data: NSData) -> [InstagramObject]{
         var pictures = [InstagramObject]()
         
         if let jsonObject = jsonObject(data) {
@@ -53,7 +53,7 @@ extension AAPIParser{
         return pictures
     }
     
-    static func instagramObject(jsonObject: AnyObject) -> InstagramObject {
+    public static func instagramObject(jsonObject: AnyObject) -> InstagramObject {
         let instagramObject = InstagramObject()
         instagramObject.objectID = stringValue(jsonObject, key: "id")
         
