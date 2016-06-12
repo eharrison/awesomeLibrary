@@ -39,4 +39,16 @@ extension AAPIParser {
         
         return unsplashObject
     }
+    
+    public static func unsplashToFileObjects(unsplashObjects: [UnsplashObject]?) -> [FileObject] {
+        var files = [FileObject]()
+        
+        if let unsplashObjects = unsplashObjects {
+            for unsplashObject in unsplashObjects {
+                files.append(unsplashObject.fileObject())
+            }
+        }
+        
+        return files
+    }
 }

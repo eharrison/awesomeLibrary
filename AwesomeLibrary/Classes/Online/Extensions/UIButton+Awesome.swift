@@ -10,7 +10,7 @@ import Foundation
 
 extension UIButton{
     
-    public func setImage(url: String, placeholder: UIImage?, state: UIControlState, showLoading: Bool, completion:(image: UIImage?) -> Void) -> NSURLSessionDataTask?{
+    public func setImage(url: String?, placeholder: UIImage?, state: UIControlState, showLoading: Bool, completion:((image: UIImage?) -> Void)?) -> NSURLSessionDataTask?{
         self.layer.masksToBounds = true
         
         if let placeholder = placeholder {
@@ -27,15 +27,15 @@ extension UIButton{
             }
             
             self.setImage(image, forState: state)
-            completion(image: image)
+            completion?(image: image)
         }
     }
     
-    public func setImage(url: String, thumbnailUrl: String, placeholder: UIImage?, state: UIControlState, showLoading: Bool, completion:(image: UIImage?) -> Void) -> NSURLSessionDataTask?{
+    public func setImage(url: String?, thumbnailUrl: String?, placeholder: UIImage?, state: UIControlState, showLoading: Bool, completion:((image: UIImage?) -> Void)?) -> NSURLSessionDataTask?{
         
         return setImage(thumbnailUrl, placeholder: placeholder, state: state, showLoading: showLoading) { (thumbnail) in
             self.setImage(url, placeholder: placeholder, state: state, showLoading: false) { (image) in
-                completion(image: image)
+                completion?(image: image)
             }
         }
     }

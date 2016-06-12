@@ -71,4 +71,16 @@ extension AAPIParser{
         
         return instagramObject
     }
+    
+    public static func instagramToFileObjects(instagramObjects: [InstagramObject]?) -> [FileObject] {
+        var files = [FileObject]()
+        
+        if let instagramObjects = instagramObjects {
+            for instagramObject in instagramObjects {
+                files.append(instagramObject.fileObject())
+            }
+        }
+        
+        return files
+    }
 }

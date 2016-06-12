@@ -6,7 +6,7 @@
 //  Copyright © 2016 DogTownMedia. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 @IBDesignable public class DesignableView: UIView {
 

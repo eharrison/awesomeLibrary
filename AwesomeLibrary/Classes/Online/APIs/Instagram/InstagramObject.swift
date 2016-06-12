@@ -15,4 +15,11 @@ public class InstagramObject: NSObject {
     public var imageStandard: String?
     public var objectID: String?
     
+    public func fileObject() -> FileObject{
+        let file = FileObject()
+        file.imageUrl = imageStandard
+        
+        return file
+    }
+    
 }
