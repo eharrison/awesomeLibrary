@@ -24,6 +24,8 @@ public class UnsplashObject: NSObject {
         file.imageUrl = String(format:"https://unsplash.it/%d/%d?image=%d", width, height, objectID)
         file.thumbnailUrl = String(format:"https://unsplash.it/%d/%d?image=%d", Int(width/15), Int(height/15), objectID)
         file.title = author
+        file.width = width
+        file.height = height
         
         return file
     }
