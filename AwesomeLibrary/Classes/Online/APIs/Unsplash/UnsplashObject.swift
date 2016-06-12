@@ -22,7 +22,7 @@ public class UnsplashObject: NSObject {
     public func fileObject() -> FileObject{
         let file = FileObject()
         file.imageUrl = String(format:"https://unsplash.it/%d/%d?image=%d", width, height, objectID)
-        file.thumbnailUrl = String(format:"https://unsplash.it/%d/%d?image=%d", Double(width)*0.2, Double(height)*0.2, objectID)
+        file.thumbnailUrl = String(format:"https://unsplash.it/%d/%d?image=%d", Int(width/15), Int(height/15), objectID)
         file.title = author
         
         return file

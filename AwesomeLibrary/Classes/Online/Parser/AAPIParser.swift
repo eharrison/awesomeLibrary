@@ -22,7 +22,9 @@ public class AAPIParser: NSObject {
     }
     
     public static func doubleValue(jsonObject: AnyObject, key: String) -> Double{
-        if let value = jsonObject[key] as? String {
+        if let value = jsonObject[key] as? Double {
+            return value
+        }else if let value = jsonObject[key] as? String {
             return Double(value)!
         }else if let array = jsonObject[key] as? [String] {
             return Double(array[0])!
@@ -31,7 +33,9 @@ public class AAPIParser: NSObject {
     }
     
     public static func intValue(jsonObject: AnyObject, key: String) -> Int{
-        if let value = jsonObject[key] as? String {
+        if let value = jsonObject[key] as? Int {
+            return value
+        }else if let value = jsonObject[key] as? String {
             return Int(value)!
         }else if let array = jsonObject[key] as? [String] {
             return Int(array[0])!
