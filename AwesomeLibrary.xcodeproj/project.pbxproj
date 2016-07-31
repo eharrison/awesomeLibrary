@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6C37741D117150006C3179 /* AAPIParser+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C37731D117150006C3179 /* AAPIParser+Properties.swift */; };
 		0AA751E11D02342200201DB9 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA751E01D02342200201DB9 /* UIView+Layout.swift */; };
 		0AA751F41D0238B900201DB9 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA751F31D0238B900201DB9 /* DesignableView.swift */; };
 		0AC0891F1D0794BE002D997C /* UIImageView+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0891E1D0794BE002D997C /* UIImageView+Awesome.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A6C37731D117150006C3179 /* AAPIParser+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AAPIParser+Properties.swift"; sourceTree = "<group>"; };
 		0AA751E01D02342200201DB9 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "../../../../../awesomeLibrary/AwesomeLibrary/Classes/UI/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
 		0AA751F31D0238B900201DB9 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = ../../../../../awesomeLibrary/AwesomeLibrary/Classes/UI/Designable/DesignableView.swift; sourceTree = "<group>"; };
 		0AC0891E1D0794BE002D997C /* UIImageView+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Awesome.swift"; path = "../../../../../awesomeLibrary/AwesomeLibrary/Classes/Online/Extensions/UIImageView+Awesome.swift"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				0AE638481D00C85300D0A652 /* AAPIParser.swift */,
+				0A6C37731D117150006C3179 /* AAPIParser+Properties.swift */,
 				0AE8B4A11D0C574D00B59513 /* FileObject.swift */,
 			);
 			path = Parser;
@@ -349,6 +352,7 @@
 			files = (
 				0AE6384B1D00C85300D0A652 /* InstagramUserObject.swift in Sources */,
 				0AE6384D1D00C85300D0A652 /* AAPIFetcher.swift in Sources */,
+				0A6C37741D117150006C3179 /* AAPIParser+Properties.swift in Sources */,
 				0AE6384C1D00C85300D0A652 /* UIImage+Awesome.swift in Sources */,
 				0AE638491D00C85300D0A652 /* AAPIParser+Instagram.swift in Sources */,
 				0AE8B4A21D0C574D00B59513 /* FileObject.swift in Sources */,
